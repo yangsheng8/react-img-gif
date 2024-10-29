@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <h3>Create a GIF from images in React</h3>
+      <h2>Create a GIF from images in React</h2>
       <button onClick={handleClick}>Click to create a GIF</button>
       {progress > 0 && <p>Creating GIF... {progress}%</p>}
       {gifSrc && (
